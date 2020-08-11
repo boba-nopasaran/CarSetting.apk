@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/preference_margin_left" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="19.0sp" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sensity" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textSize="16.0sp" android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/sensity_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sensity" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RadioGroup android:layout_gravity="center" android:orientation="horizontal" android:id="@id/radioGroup1" android:paddingLeft="20.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RadioButton android:textSize="19.0sp" android:id="@id/close" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sensity_close" android:layout_weight="1.0" />
+        <RadioButton android:textSize="19.0sp" android:id="@id/low" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sensity_low" android:layout_weight="1.0" />
+        <RadioButton android:textSize="19.0sp" android:id="@id/medium" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sensity_medium" android:layout_weight="1.0" />
+        <RadioButton android:textSize="19.0sp" android:id="@id/high" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sensity_high" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>

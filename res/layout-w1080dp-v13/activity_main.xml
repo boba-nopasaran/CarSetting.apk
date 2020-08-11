@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/left_side" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="840.0dip" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:id="@id/frag" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/right_side" android:layout_width="401.0dip" android:layout_height="fill_parent">
+        <View android:background="#ff616161" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <com.car.carsetting.QRCode android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/usb_entries" android:title="USB端口模式" android:key="usb_func" android:dialogTitle="USB端口模式选择" android:entryValues="@array/usb_values" />
+    <ListPreference android:entries="@array/voice_engine_entries" android:title="语音引擎" android:key="voice_engine" android:dialogTitle="语音引擎选择" android:entryValues="@array/voice_engine_values" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/more" android:key="more" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/barcode" android:key="barcode" />
+    <CheckBoxPreference android:title="关闭无can数据休眠" android:key="ban_acc" android:summary="没有can数据也不会休眠机器" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="单次抓取Log" android:key="log" android:summary="Log将保存在SD卡的DVR\\log_dbg目录" />
+    <CheckBoxPreference android:title="持续抓取Log" android:key="log_always" android:summary="Log将保存在内部存储的log_dbg目录" android:defaultValue="false" />
+    <CheckBoxPreference android:title="允许显示系统调试信息" android:key="show_sys_info" android:summary="屏幕上动态显示系统调试信息" android:defaultValue="false" />
+    <CheckBoxPreference android:title="显示CPU信息" android:key="show_cpu_info" android:summary="屏幕上实时显示CPU信息" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="进入工程模式" android:key="start_mtk_eng">
+        <intent android:targetPackage="com.mediatek.engineermode" android:targetClass="com.mediatek.engineermode.EngineerMode" />
+    </Preference>
+    <Preference android:persistent="false" android:title="/proc/cmdline" android:key="cmdline" />
+</PreferenceScreen>

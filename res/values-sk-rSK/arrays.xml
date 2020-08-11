@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autosleep_time_entries">
+        <item>@string/autosleep_1</item>
+        <item>@string/autosleep_15</item>
+        <item>@string/autosleep_30</item>
+        <item>@string/autosleep_60</item>
+        <item>@string/autosleep_never</item>
+    </string-array>
+    <string-array name="autosleep_time_values">
+        <item>1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="sensitive_entries">
+        <item>@string/sensitive_high</item>
+        <item>@string/sensitive_normal</item>
+        <item>@string/sensitive_low</item>
+    </string-array>
+    <string-array name="sensitive_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wakeup_key">
+        <item>@string/xiaoyi</item>
+        <item>@string/xiaoming</item>
+        <item>@string/xiaoka</item>
+    </string-array>
+    <string-array name="usb_entries">
+        <item>USB Hostiteľ - Pripojenie externých zariadení</item>
+        <item>USB Zariadenie - Pripojenie k počítaču. Správa prostredníctvom ADB</item>
+        <item>Automatická detekcia. Ak nie sú pripojené žiadne zariadenia, zvolí sa režim USB Device</item>
+    </string-array>
+    <string-array name="usb_values">
+        <item>hostiteľ</item>
+        <item>zariadenie</item>
+        <item>automatická detekcia</item>
+    </string-array>
+    <string-array name="voice_engine_entries">
+        <item>Režim 1</item>
+        <item>Režim 2</item>
+        <item>Režim 3</item>
+        <item>Režim 4</item>
+    </string-array>
+    <string-array name="voice_engine_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

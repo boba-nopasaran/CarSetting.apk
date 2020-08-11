@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="actionbar_size">68.0dip</dimen>
+    <dimen name="preference_margin_left">8.0dip</dimen>
+    <dimen name="qrcode_img_hight">161.0dip</dimen>
+    <dimen name="qrcode_img_width">161.0dip</dimen>
+    <dimen name="deviceid_text_size">15.0sp</dimen>
+    <dimen name="status_text_size">9.0sp</dimen>
+    <dimen name="tip_text_size">14.0sp</dimen>
+    <dimen name="tip_margin_top">3.0dip</dimen>
+    <dimen name="dialog_tip_text_size">13.0sp</dimen>
+    <dimen name="button1_text_size">13.0sp</dimen>
+    <dimen name="activity_bund_minwidth_size">430.0dip</dimen>
+    <dimen name="activity_bund_minheight_size">400.0dip</dimen>
+    <dimen name="QRCode_height">210.0dip</dimen>
+</resources>

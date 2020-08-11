@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/imei_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/barcode_default" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/imei_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/imei" android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/iccid_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/barcode_default" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/iccid_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iccid" android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/device_id_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/barcode_default" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/device_id_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/deviceid" android:textAlignment="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

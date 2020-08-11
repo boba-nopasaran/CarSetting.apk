@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo" />
+    <style name="Theme.Settings" parent="@style/Theme.SettingsBase">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:title"></item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+        <item name="android:actionBarSize">@dimen/actionbar_size</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

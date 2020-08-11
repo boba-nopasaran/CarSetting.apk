@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:textSize="24.0sp" android:title="@string/total" android:key="total" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/dvr" android:key="dvr" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/other" android:key="other" />
+    <CheckBoxPreference android:icon="@null" android:persistent="true" android:title="@string/autoclear" android:key="autoclear" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/manual" android:key="manual" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/format" android:key="format" />
+</PreferenceScreen>

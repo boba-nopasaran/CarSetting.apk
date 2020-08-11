@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.car.carsetting.VolumePreference android:persistent="true" android:title="@string/volume" android:key="volume" />
+    <com.car.carsetting.BrightnessPreference android:persistent="true" android:title="@string/brightness" android:key="brightness" />
+    <com.car.carsetting.SensityPreference android:persistent="true" android:title="@string/sensity" android:key="sensity" />
+    <com.car.carsetting.VoltagePreference android:persistent="true" android:title="@string/lowvoltage" android:key="voltage" />
+    <CheckBoxPreference android:icon="@null" android:persistent="true" android:title="@string/live_enable" android:key="live" />
+    <CheckBoxPreference android:icon="@null" android:persistent="true" android:title="@string/btkb" android:key="btkb" />
+    <com.car.carsetting.DataInfoPreference android:persistent="true" android:title="@string/datalimit" android:key="datalimit" />
+    <CheckBoxPreference android:icon="@null" android:persistent="true" android:title="@string/report" android:key="report" />
+    <com.car.carsetting.SwitchPreference android:persistent="false" android:title="@string/softap" android:key="softap" />
+    <com.car.carsetting.SwitchPreference android:persistent="false" android:title="@string/wifi" android:key="wifi" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/dvrsetting" android:key="dvrsetting" />
+</PreferenceScreen>
