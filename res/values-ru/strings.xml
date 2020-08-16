@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Настройки</string>
+<!-- by boba 16.08.2020
+sensitive levels -->
+    <string name="sensitive_levels_title">Уровни чувствительности</string>
+    <string name="sensitive_levels_dialog_title">Защитить видео: низкий, средний, высокий, включиться: низкий, средний, высокий</string>
+    
+	<string name="app_name">Настройки</string>
     <string name="setting">Общие</string>
     <string name="storage">Файлы</string>
     <string name="other_setting">Другие</string>

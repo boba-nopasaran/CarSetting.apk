@@ -8,6 +8,11 @@
     <CheckBoxPreference android:icon="@null" android:title="@string/gsensor" android:key="gsensor_enable" android:summary="@string/gsensor_summary" android:defaultValue="false" />
     <CheckBoxPreference android:icon="@null" android:title="@string/lock" android:key="video_lock_enable" android:summary="@string/lock_summary" android:defaultValue="true" />
     <com.car.carsetting.GsensorSensitivePreference android:persistent="true" android:title="@string/sensitive_title" android:key="sensitive" android:summary="@string/sensitive_summary" />
+
+<!-- by boba 16.08.2020
+sensitive levels -->
+    <EditTextPreference android:icon="@null" android:title="@string/sensitive_levels_title" android:dialogTitle="@string/sensitive_levels_dialog_title" android:key="sensitive_levels" />
+	
     <com.car.carsetting.SwitchPreference android:icon="@null" android:persistent="true" android:title="@string/socol" android:key="socol_enable" />
     <com.car.carsetting.SwitchPreference android:icon="@null" android:persistent="true" android:title="@string/baidu" android:key="baidu_enable" />
     <Preference android:icon="@null" android:persistent="true" android:title="@string/app" android:key="app" />

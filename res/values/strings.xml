@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!-- by boba 16.08.2020
+sensitive levels -->
+    <string name="sensitive_levels_title">Sensitivity levels</string>
+    <string name="sensitive_levels_dialog_title">lock vidio: low,norml,high, wakeup: low,norml,high</string>
+    
     <string name="app_name">Car Settings</string>
     <string name="setting">Setting</string>
     <string name="storage">Storage</string>

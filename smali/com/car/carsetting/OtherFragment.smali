@@ -64,6 +64,10 @@
 
 
 # instance fields
+#by boba 16.08.2020
+#sensitive level
+.field mSensLevls:Landroid/preference/EditTextPreference;
+
 .field mAppPreference:Landroid/preference/Preference;
 
 .field mAutoSleepTimePrefence:Landroid/preference/ListPreference;
@@ -535,6 +539,14 @@
     const v10, 0x7f040002
 
     invoke-virtual {p0, v10}, Lcom/car/carsetting/OtherFragment;->addPreferencesFromResource(I)V
+
+#by boba 16.08.2020
+#sensitive levels
+const-string v10, "sensitive_levels"
+invoke-virtual {p0, v10}, Lcom/car/carsetting/OtherFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+move-result-object v10
+check-cast v10, Landroid/preference/EditTextPreference;
+iput-object v10, p0, Lcom/car/carsetting/OtherFragment;->mSensLevls:Landroid/preference/EditTextPreference;
 
     const-string v10, "time"
 
@@ -2292,6 +2304,16 @@
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/car/carsetting/SwitchPreference;->setChecked(Z)V
+	
+#by boba 16.08.2020
+#sensitive levels
+const-string v1, "persist.car.sensitive"
+const-string v0, ""
+invoke-static {v1, v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+iget-object v1, p0, Lcom/car/carsetting/OtherFragment;->mSensLevls:Landroid/preference/EditTextPreference;
+invoke-virtual {v1, v0}, Landroid/preference/EditTextPreference;->setText(Ljava/lang/String;)V
+invoke-virtual {v1, v0}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -2422,7 +2444,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_100
 
     iget-object v0, p0, Lcom/car/carsetting/OtherFragment;->mContext:Landroid/content/Context;
 
@@ -2459,6 +2481,21 @@
     invoke-virtual {v0, v1}, Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
+	
+#by boba 10.08.2020
+#select acc on cam
+:cond_100
+const-string v0, "sensitive_levels"
+invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+move-result v0
+if-eqz v0, :cond_1
+iget-object v1, p0, Lcom/car/carsetting/OtherFragment;->mSensLevls:Landroid/preference/EditTextPreference;
+const-string v0, "persist.car.sensitive"
+invoke-virtual {v1}, Landroid/preference/EditTextPreference;->getText()Ljava/lang/String;
+move-result-object v2
+invoke-virtual {v1, v2}, Landroid/preference/EditTextPreference;->setSummary(Ljava/lang/CharSequence;)V
+invoke-static {v0, v2}, Landroid/os/SystemProperties;->set(Ljava/lang/String;Ljava/lang/String;)V
+goto/16 :goto_0
 .end method
 
 .method public stop()V
