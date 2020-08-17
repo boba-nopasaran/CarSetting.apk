@@ -636,27 +636,29 @@ iput-object v10, p0, Lcom/car/carsetting/OtherFragment;->mSensLevls:Landroid/pre
 
     invoke-virtual {v10, v11}, Landroid/preference/ListPreference;->setValue(Ljava/lang/String;)V
 
-    const-string v10, "ro.settings.show"
+#by boba 17.08.2020
+#screen off
+#    const-string v10, "ro.settings.show"
 
-    invoke-static {v10}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+#    invoke-static {v10}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v10
+#    move-result-object v10
 
-    const-string v11, "screenoff"
+#    const-string v11, "screenoff"
 
-    invoke-virtual {v10, v11}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+#    invoke-virtual {v10, v11}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    move-result v10
+#    move-result v10
 
-    if-nez v10, :cond_1
+#    if-nez v10, :cond_1
 
-    invoke-virtual {p0}, Lcom/car/carsetting/OtherFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+#    invoke-virtual {p0}, Lcom/car/carsetting/OtherFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
-    move-result-object v10
+#    move-result-object v10
 
-    iget-object v11, p0, Lcom/car/carsetting/OtherFragment;->mScreenOffTimePrefence:Landroid/preference/ListPreference;
+#    iget-object v11, p0, Lcom/car/carsetting/OtherFragment;->mScreenOffTimePrefence:Landroid/preference/ListPreference;
 
-    invoke-virtual {v10, v11}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+#    invoke-virtual {v10, v11}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_1
     const-string v10, "dvrslow_time"

@@ -4,6 +4,12 @@
 sensitive levels -->
     <string name="sensitive_levels_title">Уровни чувствительности</string>
     <string name="sensitive_levels_dialog_title">Защитить видео: низкий, средний, высокий, включиться: низкий, средний, высокий</string>
+
+<!-- by boba 16.08.2020
+screen off -->
+    <string name="screenoff_time_title">Автогашение экрана</string>
+    <string name="screensave_time_title">Заставка</string>
+    <string name="screensave_time_dialog_title">Заставка</string>
     
 	<string name="app_name">Настройки</string>
     <string name="setting">Общие</string>
@@ -145,8 +151,6 @@ sensitive levels -->
     <string name="dvrslow_never">Функция отключена</string>
     <string name="lowvoltage">Низкий уровень напряжения</string>
     <string name="offvoltage">Если напряжение ниже чем %s, устройство будет выключено при глушении машины</string>
-    <string name="screensave_time_title">Автогашение экрана</string>
-    <string name="screensave_time_dialog_title">Гашение экрана</string>
     <string name="screensave_1m">10 секунд</string>
     <string name="screensave_3m">30 секунд</string>
     <string name="screensave_5m">1 минута</string>
