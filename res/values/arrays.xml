@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autosleep_time_entries">
+        <item>@string/autosleep_15</item>
+        <item>@string/autosleep_30</item>
+        <item>@string/autosleep_60</item>
+        <item>@string/autosleep_never</item>
+    </string-array>
+    <string-array name="autosleep_time_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="screensave_time_entries">
+        <item>@string/screensave_1m</item>
+        <item>@string/screensave_3m</item>
+        <item>@string/screensave_5m</item>
+        <item>@string/screensave_never</item>
+    </string-array>
+    <string-array name="screensave_time_values">
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="screenoff_time_values">
+        <item>60000</item>
+        <item>180000</item>
+        <item>300000</item>
+        <item>2147483647</item>
+    </string-array>
+    <string-array name="dvrslow_time_entries">
+        <item>@string/dvrslow_8</item>
+        <item>@string/dvrslow_24</item>
+        <item>@string/dvrslow_never</item>
+    </string-array>
+    <string-array name="dvrslow_time_values">
+        <item>8</item>
+        <item>24</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="sensitive_entries">
+        <item>@string/sensitive_high</item>
+        <item>@string/sensitive_normal</item>
+        <item>@string/sensitive_low</item>
+    </string-array>
+    <string-array name="sensitive_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wakeup_key">
+        <item>@string/xiaoyi</item>
+        <item>@string/xiaoming</item>
+        <item>@string/xiaoka</item>
+    </string-array>
+    <string-array name="usb_entries">
+        <item>USB Host（连接摄像头）</item>
+        <item>USB Device（连接电脑ADB、输出视频到中控）</item>
+        <item>开机时检测（开机时如果检测到USB摄像头则为Host模式，否则为Device模式）</item>
+    </string-array>
+    <string-array name="usb_values">
+        <item>host</item>
+        <item>device</item>
+        <item>checkwhenboot</item>
+    </string-array>
+    <string-array name="voice_engine_entries">
+        <item>模式1</item>
+        <item>模式2</item>
+        <item>模式3</item>
+        <item>模式4</item>
+    </string-array>
+    <string-array name="voice_engine_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
