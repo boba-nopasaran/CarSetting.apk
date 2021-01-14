@@ -43,11 +43,20 @@
         <item>3600</item>
     </string-array>
     <string-array name="screenoff_time_values">
+        <item>2147483647</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
         <item>60000</item>
+        <item>120000</item>
         <item>180000</item>
         <item>300000</item>
-        <item>2147483647</item>
-    </string-array>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </string-array>	
     <string-array name="dvrslow_time_entries">
         <item>@string/dvrslow_8</item>
         <item>@string/dvrslow_24</item>
