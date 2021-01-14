@@ -42,7 +42,6 @@ sensitive levels -->
     <string name="sensity_medium">Normal</string>
     <string name="sensity_high">High</string>
     <string name="serial">Device ID</string>
-    <string name="version">Version</string>
     <string name="remotectrl">Remote Control enabled</string>
     <string name="download_apk">Remote Control Software Download</string>
     <string name="app">Apps</string>
@@ -145,13 +144,23 @@ Device bund"</string>
     <string name="screensave_time_title">Auto Screen Saving</string>
     <string name="screenoff_time_title">Auto Screen Off</string>
     <string name="screensave_time_dialog_title">Screen Saving</string>
+    <string name="screensave_1s">1 Second</string>
+    <string name="screensave_3s">3 Second</string>
+    <string name="screensave_5s">5 Second</string>
+    <string name="screensave_10s">10 Second</string>
+    <string name="screensave_30s">30 Second</string>
     <string name="screensave_1m">1 Minute</string>
+    <string name="screensave_2m">2 Minute</string>
     <string name="screensave_3m">3 Minute</string>
     <string name="screensave_5m">5 Minute</string>
+    <string name="screensave_10m">10 Minute</string>
+    <string name="screensave_30m">30 Minute</string>
+    <string name="screensave_1h">1 Hour</string>
     <string name="screensave_never">Forbid</string>
     <string name="fw_update">Local Update</string>
     <string name="fw_upda_warning">Warning</string>
     <string name="fw_update_summary">System update from local storage</string>
     <string name="fw_file_error">System ROM Package Format Wrong</string>
     <string name="fw_update_message">Your device will be bricked if you choose and install an unofficial or incompatible zip file!</string>
+    <string name="version">Nopasaran by h45242@4PDA</string>
 </resources>
