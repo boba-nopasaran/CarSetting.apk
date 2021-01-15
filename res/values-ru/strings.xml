@@ -76,8 +76,8 @@ sensitive levels -->
     <string name="check_version">Поиск обновлений</string>
     <string name="upgrade_system">Обновление с файловой системы</string>
     <string name="check_version_tip">Проверка наличия обновлений системы, пожалуйста, подождите...</string>
-    <string name="qrcode_scan">Ассистент</string>
-    <string name="dvr_qrcode_scan">DVR Ассистент</string>
+    <string name="qrcode_scan">Помощник</string>
+    <string name="dvr_qrcode_scan">DVR Помощник</string>
     <string name="no_connection">Отсутствует соединение!</string>
     <string name="bund_tip">QR-код</string>
     <string name="bund_sub_tip">Соединение мобильных устройств с помощью QR кода</string>
