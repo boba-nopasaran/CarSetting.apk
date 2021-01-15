@@ -5,11 +5,11 @@ sensitive levels -->
     <string name="sensitive_levels_title">Уровни чувствительности</string>
     <string name="sensitive_levels_dialog_title">Защитить видео: низкий, средний, высокий, включиться: низкий, средний, высокий</string>
 
-    <string name="app_name">Настройки</string>
+    <string name="app_name">Настройки зеркала</string>
     <string name="setting">Общие</string>
     <string name="storage">Файлы</string>
-    <string name="other_setting">Настройки</string>
-    <string name="volume">Звук</string>
+    <string name="other_setting">Остальное</string>
+    <string name="volume">Громкость</string>
     <string name="brightness">Яркость</string>
     <string name="report">Отчёт</string>
     <string name="report_summary">Сводный отчёт</string>
@@ -17,8 +17,8 @@ sensitive levels -->
     <string name="time">Время</string>
     <string name="wifi">WiFi</string>
     <string name="wifi_disconnected">WiFi отключен</string>
-    <string name="wifi_connected">WiFi подключен</string>
-    <string name="wifi_connecting">WiFi соединяется</string>
+    <string name="wifi_connected">"WiFi подключен: "</string>
+    <string name="wifi_connecting">WiFi подключается</string>
     <string name="softap">Точка беспроводного доступа</string>
     <string name="softap_disabled">WiFi точка доступа выключена</string>
     <string name="softap_enabled">WiFi точка доступа включена (%1$s)</string>
@@ -38,9 +38,9 @@ sensitive levels -->
     <string name="total">Общий объём:</string>
     <string name="available">Доступно:</string>
     <string name="sensity_close">Отключено</string>
-    <string name="sensity_low">Низкая</string>
-    <string name="sensity_medium">Средняя</string>
-    <string name="sensity_high">Высокая</string>
+    <string name="sensity_low">низкая</string>
+    <string name="sensity_medium">средняя</string>
+    <string name="sensity_high">высокая</string>
     <string name="serial">Серийный номер</string>
     <string name="remotectrl">Удаленное управление</string>
     <string name="download_apk">Скачать приложение</string>
@@ -88,11 +88,10 @@ sensitive levels -->
     <string name="data_info_title_disable">Мобильная сеть выключена</string>
     <string name="data_info_title_no_sim">Нет СИМ-карты</string>
     <string name="data_info_summary">Использовано в месяц 0KB, использовано в общей сложности 0KB</string>
-    <string name="data_info_summary2">Всего использовано:</string>
-    <string name="data_info_summary3">Использовано всего:</string>
+    <string name="data_info_summary2">" использовано:"</string>
+    <string name="data_info_summary3">, использовано всего:</string>
     <string name="unbind_confirm">Вы уверены что хотите отсоединить‘%1$s’?</string>
     <string name="sure">Уверен</string>
-    <string name="ok">Уверен</string>
     <string name="cancel">Отмена</string>
     <string name="connected">(Подключен)</string>
     <string name="disconnected">(Отключен)</string>
@@ -107,8 +106,8 @@ sensitive levels -->
     <string name="none">Отсоединенный пользователь</string>
     <string name="eng_mode">Активация расширенных настроек</string>
     <string name="btkb">Автоматическое сканирование BT клавиатуры</string>
-    <string name="bt_prompt">Для возобновления соединения нажмите клавишу клавиатуры</string>
-    <string name="reset_work">Если рядом нет клавиатуры Bluetooth, отключите ееие</string>
+    <string name="bt_prompt">"Для возобновления соединения нажмите клавишу клавиатуры "</string>
+    <string name="reset_work">Если рядом нет клавиатуры Bluetooth, отключите.</string>
     <string name="start_telnetd_done">Запуск telnetd</string>
     <string name="restart_voice_engine">Перезапустить Voice Engine ...</string>
     <string name="softap_setting">Настройки  беспроводного доступа в сеть</string>
@@ -117,12 +116,12 @@ sensitive levels -->
     <string name="error">Ошибка</string>
     <string name="ssid_empty">Задать имя</string>
     <string name="password_invalid">Пароль должен быть не менее 8 символов</string>
-    <string name="live_enable">Включен онлайн просмотр</string>
+    <string name="live_enable">Онлайн просмотр</string>
     <string name="upgrade_online">Интернет обновление</string>
     <string name="new_version">Обнаружена новая версия</string>
     <string name="latest_version">Последняя версия</string>
     <string name="download_finish">Загрузка обновления завершена</string>
-    <string name="downloading">Загрузка：%d %%</string>
+    <string name="downloading">Загрузка:%d %%</string>
     <string name="screensave_time_title">Заставка</string>
     <string name="screenoff_time_title">Автогашение экрана</string>
     <string name="screensave_time_dialog_title">Заставка</string>
@@ -149,4 +148,5 @@ sensitive levels -->
     <string name="screensave_10m">10 минуты</string>
     <string name="screensave_30m">30 минуты</string>
     <string name="screensave_1h">1 час</string>
+    <string name="ok">ОК</string>
 </resources>
