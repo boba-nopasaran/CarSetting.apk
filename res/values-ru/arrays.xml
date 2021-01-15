@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usb_entries">
+        <item>USB-хост (подключение камеры)</item>
+        <item>USB-устройство (подключение компьютера, ADB)</item>
+        <item>Авто (если USB-камера обнаружена при загрузке - режим хоста, в противном случае - режим устройства)</item>
+    </string-array>
+</resources>
