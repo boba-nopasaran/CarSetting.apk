@@ -5,4 +5,10 @@
         <item>USB-устройство (подключение компьютера, ADB)</item>
         <item>Авто (если USB-камера обнаружена при загрузке - режим хоста, в противном случае - режим устройства)</item>
     </string-array>
+    <string-array name="voice_engine_entries">
+        <item>Режим 1</item>
+        <item>Режим 2</item>
+        <item>Режим 3</item>
+        <item>Режим 4</item>
+    </string-array>
 </resources>
