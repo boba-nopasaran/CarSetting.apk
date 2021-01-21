@@ -127,8 +127,8 @@ sensitive levels -->
     <string name="screensave_time_dialog_title">Заставка</string>
     <string name="screensave_1m">1 минута</string>
     <string name="screensave_3m">3 минуты</string>
-    <string name="screensave_5m">5 минуты</string>
-    <string name="screensave_never">не гасить</string>
+    <string name="screensave_5m">5 минут</string>
+    <string name="screensave_never">Не гасить</string>
     <string name="btkb_connected">(Устройство подключено)</string>
     <string name="btkb_disconnected">(Устройство отключено)</string>
     <string name="password_error">Ошибка пароля</string>
@@ -145,8 +145,8 @@ sensitive levels -->
     <string name="screensave_10s">10 секунд</string>
     <string name="screensave_30s">30 секунд</string>
     <string name="screensave_2m">2 минуты</string>
-    <string name="screensave_10m">10 минуты</string>
-    <string name="screensave_30m">30 минуты</string>
+    <string name="screensave_10m">10 минут</string>
+    <string name="screensave_30m">30 минут</string>
     <string name="screensave_1h">1 час</string>
     <string name="ok">ОК</string>
 </resources>
