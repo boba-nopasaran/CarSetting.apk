@@ -2,7 +2,7 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ListPreference android:entries="@array/usb_entries" android:title="Режим USB-порта" android:key="usb_func" android:dialogTitle="Выбор режима USB-порта" android:entryValues="@array/usb_values" />
-    <ListPreference android:entries="@array/voice_engine_entries" android:title="Речевой движек" android:key="voice_engine" android:dialogTitle="Выбор речевого движка" android:entryValues="@array/voice_engine_values" />
+    <ListPreference android:entries="@array/voice_engine_entries" android:title="Речевой движок" android:key="voice_engine" android:dialogTitle="Выбор речевого движка" android:entryValues="@array/voice_engine_values" />
     <Preference android:icon="@null" android:persistent="true" android:title="@string/more" android:key="more" />
     <Preference android:icon="@null" android:persistent="true" android:title="@string/barcode" android:key="barcode" />
     <CheckBoxPreference android:title="Выключить сон по ACC" android:key="ban_acc" android:summary="Зажигание выключено - машина не спит" android:defaultValue="false" />
