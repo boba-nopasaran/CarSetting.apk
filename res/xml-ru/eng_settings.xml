@@ -5,7 +5,7 @@
     <ListPreference android:entries="@array/voice_engine_entries" android:title="Речевой движок" android:key="voice_engine" android:dialogTitle="Выбор речевого движка" android:entryValues="@array/voice_engine_values" />
     <Preference android:icon="@null" android:persistent="true" android:title="@string/more" android:key="more" />
     <Preference android:icon="@null" android:persistent="true" android:title="@string/barcode" android:key="barcode" />
-    <CheckBoxPreference android:title="Выключить сон по ACC" android:key="ban_acc" android:summary="Зажигание выключено - машина не спит" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Запретить сон по ACC" android:key="ban_acc" android:summary="Зажигание выключено - устройство не спит" android:defaultValue="false" />
     <Preference android:persistent="false" android:title="Разовый лог" android:key="log" android:summary="Log будет сохранен в директории DVR\\log_dbg SD-карты." />
     <CheckBoxPreference android:title="Вести Log" android:key="log_always" android:summary="Log будет сохранен в каталоге log_dbg внутреннего хранилища." android:defaultValue="false" />
     <CheckBoxPreference android:title="Разрешить отображать информацию об отладке системы" android:key="show_sys_info" android:summary="Динамическое отображение отладочной информации системы на экране" android:defaultValue="false" />
