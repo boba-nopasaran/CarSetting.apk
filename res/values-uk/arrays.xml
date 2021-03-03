@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usb_entries">
+        <item>USB-хост (підключення камери)</item>
+        <item>USB-пристрій (підключення комп\'ютера, ADB)</item>
+        <item>Авто (якщо при загрузці була виявлена USB-камера - режим хоста, інакше - режим пристрою)</item>
+    </string-array>
+    <string-array name="voice_engine_entries">
+        <item>Режим 1</item>
+        <item>Режим 2</item>
+        <item>Режим 3</item>
+        <item>Режим 4</item>
+    </string-array>
+</resources>

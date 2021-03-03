@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/usb_entries" android:title="Режим USB-порта" android:key="usb_func" android:dialogTitle="Вибір режиму USB-порта" android:entryValues="@array/usb_values" />
+    <ListPreference android:entries="@array/voice_engine_entries" android:title="Голосовий двіжок" android:key="voice_engine" android:dialogTitle="Вибір голосового двіжка" android:entryValues="@array/voice_engine_values" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/more" android:key="more" />
+    <Preference android:icon="@null" android:persistent="true" android:title="@string/barcode" android:key="barcode" />
+    <CheckBoxPreference android:title="Заборонити сон по ACC" android:key="ban_acc" android:summary="Запалювання вимкнено - пристрій не спить" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="Разовий лог" android:key="log" android:summary="Log буде збережено в папці DVR\\log_dbg SD-карты." />
+    <CheckBoxPreference android:title="Вести Log" android:key="log_always" android:summary="Log буде збережено в папці log_dbg внутрішнього сховища." android:defaultValue="false" />
+    <CheckBoxPreference android:title="Дозволити відображати информацію про налагодження системи" android:key="show_sys_info" android:summary="Динамічне відображення налагоджувальної інформації системи на екрані" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Відображення інформації про CPU" android:key="show_cpu_info" android:summary="Відображення інформації про процесор на екрані в реальному часі" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="Інженерний режим" android:key="start_mtk_eng">
+        <intent android:targetPackage="com.mediatek.engineermode" android:targetClass="com.mediatek.engineermode.EngineerMode" />
+    </Preference>
+    <Preference android:persistent="false" android:title="/proc/cmdline" android:key="cmdline" />
+</PreferenceScreen>
