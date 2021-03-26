@@ -162,5 +162,5 @@ Device bund"</string>
     <string name="fw_update_summary">System update from local storage</string>
     <string name="fw_file_error">System ROM Package Format Wrong</string>
     <string name="fw_update_message">Your device will be bricked if you choose and install an unofficial or incompatible zip file!</string>
-    <string name="version">¡No pasarán! by h45242@4PDA</string>
+    <string name="version">¡No pasarán! by h45242@4PDA (h45242@boba.su)</string>
 </resources>
