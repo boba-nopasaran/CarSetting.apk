@@ -55,6 +55,9 @@
 
 .field private mWidescreen:Z
 
+#by boba 26.03.2021
+#additional
+.field private tab1:Landroid/app/ActionBar$Tab;
 
 # direct methods
 .method static constructor <clinit>()V
@@ -672,6 +675,77 @@
     .line 180
     .end local v3    # "tab4":Landroid/app/ActionBar$Tab;
     :cond_0
+
+#by boba 26.03.2021
+#additional
+####################
+    invoke-virtual {p0}, Lcom/car/carsetting/MainActivity;->getActionBar()Landroid/app/ActionBar;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Landroid/app/ActionBar;->newTab()Landroid/app/ActionBar$Tab;
+
+    move-result-object v3
+
+iput-object v3, p0, Lcom/car/carsetting/MainActivity;->tab1:Landroid/app/ActionBar$Tab;
+
+    .local v3, "tab4":Landroid/app/ActionBar$Tab;
+    new-instance v4, Landroid/widget/TextView;
+
+    .end local v4    # "v":Landroid/widget/TextView;
+    invoke-direct {v4, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
+const v5,20
+    .restart local v4    # "v":Landroid/widget/TextView;
+    invoke-virtual {v4, v7, v5, v7, v7}, Landroid/widget/TextView;->setPadding(IIII)V
+
+    const v5, 0x7f080099
+
+    invoke-static {p0, v5}, Lcom/car/common/OEM;->getString(Landroid/content/Context;I)Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {v4, v9}, Landroid/widget/TextView;->setGravity(I)V
+
+    iget v5, p0, Lcom/car/carsetting/MainActivity;->mCurFrag:I
+
+    const/4 v6, 0x3
+
+#    if-ne v5, v6, :cond_4
+
+    invoke-virtual {p0}, Lcom/car/carsetting/MainActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v10}, Landroid/content/res/Resources;->getColor(I)I
+
+    move-result v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setTextColor(I)V
+
+#    :goto_3
+#    sget v5, Lcom/car/carsetting/MainActivity;->actionbarTextSize:I
+const v5, 16
+    int-to-float v5, v5
+
+    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setTextSize(F)V
+
+    invoke-virtual {v3, v4}, Landroid/app/ActionBar$Tab;->setCustomView(Landroid/view/View;)Landroid/app/ActionBar$Tab;
+
+    invoke-virtual {v3, p0}, Landroid/app/ActionBar$Tab;->setTabListener(Landroid/app/ActionBar$TabListener;)Landroid/app/ActionBar$Tab;
+
+    invoke-virtual {p0}, Lcom/car/carsetting/MainActivity;->getActionBar()Landroid/app/ActionBar;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v3}, Landroid/app/ActionBar;->addTab(Landroid/app/ActionBar$Tab;)V
+
+    iget-object v5, p0, Lcom/car/carsetting/MainActivity;->mLabList:Ljava/util/ArrayList;
+
+    invoke-virtual {v5, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+####################
+
     invoke-virtual {p0}, Lcom/car/carsetting/MainActivity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v5
@@ -1385,6 +1459,27 @@
     move-result v4
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setTextColor(I)V
+
+#by boba 26.03.2021
+#additional
+iget-object v3, p0, Lcom/car/carsetting/MainActivity;->tab1:Landroid/app/ActionBar$Tab;
+if-ne p1, v3, :cond_cont
+
+new-instance v0, Landroid/content/ComponentName;
+const-string v1, "su.boba.npsettings"
+const-string v2, "su.boba.npsettings.MainActivity"
+invoke-direct {v0, v1, v2}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+new-instance v1, Landroid/content/Intent;
+invoke-direct {v1}, Landroid/content/Intent;-><init>()V
+invoke-virtual {v1, v0}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+const/high16 v2, 0x10000000
+invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+invoke-virtual {p0, v1}, Lcom/car/carsetting/MainActivity;->startActivity(Landroid/content/Intent;)V
+goto :cond_2
+
+:cond_cont
 
     .line 259
     const/4 v0, 0x0

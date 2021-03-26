@@ -221,6 +221,7 @@
     <public type="string" name="oem_che_yi_tong_qrcode_tip" id="0x7f080096" />
     <public type="string" name="oem_che_yi_tong_bund_dialog_tip" id="0x7f080097" />
     <public type="string" name="oem_che_yi_tong_none" id="0x7f080098" />
+    <public type="string" name="additional" id="0x7f080099" />
     <public type="style" name="AppBaseTheme" id="0x7f090000" />
     <public type="style" name="AppTheme" id="0x7f090001" />
     <public type="style" name="Theme.SettingsBase" id="0x7f090002" />

@@ -149,4 +149,5 @@ sensitive levels -->
     <string name="screensave_30m">30 минут</string>
     <string name="screensave_1h">1 час</string>
     <string name="ok">ОК</string>
+    <string name="additional">Дополнительно</string>
 </resources>
